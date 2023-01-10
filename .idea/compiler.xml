@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eda-order-service" />
+        <module name="eda-base-domains" />
+        <module name="eda-email-service" />
+        <module name="eda-stock-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eda-base-domains" target="17" />
+      <module name="eda-email-service" target="17" />
+      <module name="eda-order-service" target="17" />
+      <module name="eda-stock-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eda-base-domains" options="-parameters" />
+      <module name="eda-email-service" options="-parameters" />
+      <module name="eda-order-service" options="-parameters" />
+      <module name="eda-stock-service" options="-parameters" />
+    </option>
+  </component>
+</project>

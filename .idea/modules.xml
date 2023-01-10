@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eda-base-domains/eda-base-domains.iml" filepath="$PROJECT_DIR$/eda-base-domains/eda-base-domains.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eda-email-service/eda-email-service.iml" filepath="$PROJECT_DIR$/eda-email-service/eda-email-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eda-order-service/eda-order-service.iml" filepath="$PROJECT_DIR$/eda-order-service/eda-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eda-stock-service/eda-stock-service.iml" filepath="$PROJECT_DIR$/eda-stock-service/eda-stock-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springboot-kafka-microservices.iml" filepath="$PROJECT_DIR$/.idea/springboot-kafka-microservices.iml" />
+    </modules>
+  </component>
+</project>
